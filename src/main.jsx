@@ -9,7 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const browserRouter = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/rule", element: <Rule /> },
-  { path: "/game/:difficulty", element: <Game /> },
+  { path: "/game/*", element: <Game /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
