@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import Rule from "./pages/Rule";
-import Game from "./pages/Game.jsx";
+import Game from "./pages/Game";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
